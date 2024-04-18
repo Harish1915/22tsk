@@ -1,0 +1,130 @@
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height:20PX ;
+    background-color: rgb(187, 13, 13);
+    
+    
+   
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+   
+    
+  }
+  
+  li a:hover {
+    background-color: #1ed589;
+  }
+
+#container 
+{
+    background-color: aqua;
+    display: flex;
+    width: 1320px;
+    margin-top: 100px;
+    margin-left: 300px;
+    
+   
+}
+
+#container div 
+
+{
+    background-color: blanchedalmond;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container1 
+{
+    background-color: rgb(89, 203, 28);
+    display: flex;
+    width: 1320px;
+    margin-top: 90px;
+    margin-left: 300px;
+    
+   
+}
+
+#container1 div 
+
+{
+    background-color: rgb(229, 145, 18);
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#container2
+{
+    background-color: rgb(89, 203, 28);
+    display: flex;
+    width: 800px;
+    margin-top: 90px;
+    margin-left: 520px;
+    
+   
+}
+
+#container2 div 
+
+{
+    background-color: rgb(229, 145, 18);
+    min-height: 600;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+#container4 
+
+{
+    background-color: rgb(36, 157, 209);
+    min-height: 600;
+    margin: 5px;
+    margin-left:180px ;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+
+}
+#container5
+{
+    background-color: rgb(140, 174, 192);
+    display: flex;
+    width: 1320px;
+    margin-top: 50px;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+#container5 div 
+
+{
+    background-color: rgb(134, 109, 118);
+    margin-top: 10px;
+    margin: 60px;
+
+}
